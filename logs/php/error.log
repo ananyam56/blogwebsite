@@ -1,0 +1,8 @@
+[23-Jun-2022 18:26:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_imagick.dll' (tried: C:/Users/shant/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_imagick.dll (The specified module could not be found.), C:/Users/shant/AppData/Local/Programs/Local/resources/extraResources/lightning-services/php-7.4.1+18/bin/win64/ext\php_php_imagick.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[23-Jun-2022 20:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in C:\Users\shant\Local Sites\blogwebsite\app\public\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php:294
+Stack trace:
+#0 C:\Users\shant\Local Sites\blogwebsite\app\public\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php(167): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(66, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\Users\shant\Local Sites\blogwebsite\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 C:\Users\shant\Local Sites\blogwebsite\app\public\wp-includes\class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 C:\Users\shant\Local Sites\ in C:\Users\shant\Local Sites\blogwebsite\app\public\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php on line 294
